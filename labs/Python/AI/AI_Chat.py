@@ -2,9 +2,13 @@
 import os
 from dotenv import load_dotenv
 from openai import AzureOpenAI
-client = AzureOpenAI (azure_endpoint="https://zix.openai.azure.com/",
+# Load environment variables from .env
+load_dotenv()
+client = AzureOpenAI (
+azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
 api_key = os.getenv("AZURE_OPENAI_KEY"),
-api_version = "2025-04-01-preview")
+api_version = "2025-04-01-preview"
+)
 print("Welcome To ChatBoat!")
 while True:
     msg = input("You: ")
