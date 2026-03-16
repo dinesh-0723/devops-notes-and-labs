@@ -1,8 +1,8 @@
 import os, shutil
 
 # Folders to clean
-#paths = [r"C:\Users\Garuda\AppData\Local\Temp", r"C:\Windows\Temp"]
-paths = [r"C:\Users\Garuda\AppData\Local\Temp"]
+#paths = [r"C:\Users\XYZ\AppData\Local\Temp", r"C:\Windows\Temp"]
+paths = [r"C:\Users\XYZ\AppData\Local\Temp"]
 
 for path in paths:
     print(f"Cleaning: {path}")

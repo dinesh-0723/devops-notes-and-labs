@@ -1,7 +1,7 @@
 # import os
 # import shutil
 
-# work_path = r"C:\Users\Garuda\Desktop\Klock"
+# work_path = r"C:\Users\XYZ\Desktop\Klock"
 
 # for folder in os.listdir(work_path):
 #     folder_path = os.path.join(work_path, folder)
@@ -17,7 +17,7 @@
 import os
 import shutil
 
-work_path = r"C:\Users\Garuda\Desktop\Klock"
+work_path = r"C:\Users\XYZ\Desktop\Klock"
 
 # Function to get C: drive usage
 def get_c_drive_usage():
